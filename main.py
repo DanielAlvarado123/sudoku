@@ -3,7 +3,7 @@
 import logicasudoku
 import frontedSudoku
 
-#inicializando las clases
+#inicializando clases
 logica = logicasudoku.cuerpo()
 interfaz = frontedSudoku.imagenessudoku(2,2)
   
@@ -11,6 +11,5 @@ interfaz = frontedSudoku.imagenessudoku(2,2)
 logica.creandoCuerpo()
 #obteniendo el cuerdo del sudoku
 tempralcuerpo= logica.cuerposudoku
-#recorriendo el cuerpo que se asigno en la variable tempralcuerpo
 
 logica.dificultad()

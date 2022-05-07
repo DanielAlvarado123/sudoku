@@ -4,4 +4,4 @@ class imagenessudoku():
         self.fila2=fila2
     
     def graficatodo():
-        return 
+        return

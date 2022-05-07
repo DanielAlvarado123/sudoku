@@ -53,10 +53,10 @@ class cuerpo():
         
       
         
-    #recorre todas las filas, columnas y secciones para validar si el sudoku cumple
+#Recorrido de filas, columnas y elementos
     def recorrido(self,cuerposu):
         banderaB=True
-        #-------------recorriendo filas y validando que no se repitan los numeros----------------------- 
+#Recorre las filas para comprobar para que no haya un número repetido en filas
         for filas in cuerposu:
             bandera = self.validanoserepite(filas)
             if bandera == True:
@@ -70,8 +70,6 @@ class cuerpo():
         
         return banderaB
         
-    
-    #valida que los numero no se repitan dentro de un arreglo de 9 elementos
     def validanoserepite(self,arregloindividual):
 
         #arregloindividual.sort()
