@@ -1,13 +1,16 @@
-#Importando las clases que utilizamos
-import logica
-import frontendSudoku
+#unificar pygame con logica de sudoky y frontend
+#importando las clases
+import logicasudoku
+import frontedSudoku
 
-#Inicializando las clases
-logica = logica.cuerpo()
-interfaz = frontendSudoku.interfazSu(2,2)
-
+#inicializando las clases
+logica = logicasudoku.cuerpo()
+interfaz = frontedSudoku.imagenessudoku(2,2)
+  
 #Generando el cuerpo del sudoku
-logica.creandoCuerpo
-tempralcuerpo = logica.cuerpoSudoku
-#Recorriendo el cuerpo
-logica.dificultad
+logica.creandoCuerpo()
+#obteniendo el cuerdo del sudoku
+tempralcuerpo= logica.cuerposudoku
+#recorriendo el cuerpo que se asigno en la variable tempralcuerpo
+
+logica.dificultad()
